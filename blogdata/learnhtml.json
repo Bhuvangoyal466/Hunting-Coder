@@ -1,0 +1,5 @@
+{
+    "title": "Learn HTML",
+    "content":"HTML (HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. HTML describes the structure of a webpage semantically and originally included cues for the appearance of the document. HTML elements are the building blocks of HTML pages. They are represented by tags, which are enclosed in angle brackets. Tags usually come in pairs: an opening tag and a closing tag. The content is placed between the opening and closing tags. HTML documents are files that end with a .html or .htm extension and can be created using any text editor.",
+    "author": "Wikipedia"
+}

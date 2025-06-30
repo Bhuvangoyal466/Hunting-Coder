@@ -1,0 +1,5 @@
+{
+    "title": "Learn CSS",
+    "content":"CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML or XML. CSS describes how elements should be rendered on screen, in print, or in other media. It allows for the separation of presentation and content, including layout, colors, and fonts. CSS can be applied to HTML documents in three ways: inline styles, internal stylesheets, and external stylesheets. It is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.",
+    "author": "Wikipedia"
+}

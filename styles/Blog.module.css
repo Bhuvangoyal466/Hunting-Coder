@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    grid-row-start: 2;
+}
+
+.main h2 {
+    font-size: 38px;
+    margin-top: 20px;
+}
+
+.blogItem {
+    width: 100%;
+    max-width: 800px;
+    /* padding: 20px; */
+    margin-top: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.blogItem h3 {
+    cursor: pointer;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.blogItem p {
+    margin: 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+.container {
+    padding: 0 15rem;
+}
