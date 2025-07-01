@@ -181,22 +181,24 @@ a.secondary {
 }
 
 .myImg {
-    border-radius: 20px;
-    border: 1px solid white;
+    border-radius: 100%;
+    /* border: 1px solid gray; */
 }
 
 .blogs h2 {
-    font-size: 38px;
+    font-size: 2.5rem;
+    text-align: center;
     margin-top: 20px;
+    margin-bottom: 35px;
 }
-
 .blogs h3 {
-    margin-top: 20px;
-    font-size: 24px;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .title {
-    font-size: 48px;
+    font-size: 3rem;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -207,4 +209,19 @@ a.secondary {
     flex-direction: column;
     height: auto;
     width: 80%;
+}
+
+.btn {
+    color: black;
+    background-color: rgb(245, 244, 244);
+    padding: 5px 10px;
+    border: none;
+    margin-top: 2px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.p {
+    margin: 16px 0;
+    margin-top: 3px;
 }

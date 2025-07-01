@@ -3,6 +3,13 @@ import * as fs from "fs";
 
 export default async function handler(req, res) {
     let data = await fs.promises.readdir("blogdata");
+
+    // Get count parameter or default to all files
+    const count = req.query.count ? parseInt(req.query.count) : data.length;
+
+    // Slice to get only the requested number of files
+    data = data.slice(0, count);
+
     let myfile;
     let allblogs = [];
     for (let idx = 0; idx < data.length; idx++) {

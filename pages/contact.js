@@ -57,7 +57,7 @@ const Contact = () => {
                         type="text"
                         value={name}
                         onChange={handleChange}
-                        className="form-control"
+                        className={styles.input}
                         id="name"
                         name="name"
                     />
@@ -70,11 +70,11 @@ const Contact = () => {
                         type="email"
                         value={email}
                         onChange={handleChange}
-                        className="form-control"
+                        className={styles.input}
                         id="email"
                         name="email"
                     />
-                    <div id="emailHelp" className="form-text">
+                    <div id="emailHelp" className={styles.formtext}>
                         We'll never share your email with anyone else.
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const Contact = () => {
                         type="phone"
                         value={phone}
                         onChange={handleChange}
-                        className="form-control"
+                        className={styles.input}
                         id="phone"
                         name="phone"
                     />
@@ -96,15 +96,14 @@ const Contact = () => {
                         Elaborate your concern
                     </label>
                     <textarea
-                        className="form-control"
-                        placeholder="Enter your concern here"
+                        className={styles.input}
                         id="desc"
                         name="desc"
                         value={desc}
                         onChange={handleChange}
                     ></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary">
+                <button type="submit" className={styles.btn}>
                     Submit
                 </button>
             </form>

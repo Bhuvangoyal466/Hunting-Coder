@@ -39,33 +39,46 @@ export default function Home() {
                 className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
             >
                 <main className={styles.main}>
-                    <h1>
+                    <h1 className={styles.title}>
                         <span className="mySpan">Hunting Coder</span>
                     </h1>
                     <Image
                         className={styles.myImg}
                         src="/homeimg.jpeg"
-                        height={300}
-                        width={450}
+                        height={275}
+                        width={275}
                         alt="Home Image"
                     />
-                    <p className="margin-bottom:50px">
-                        A blog for coders by a coder.
-                    </p>
 
                     <div className={styles.blogs}>
-                        <h2>Popular blogs</h2>
-                        <div className="blogItem" style={{ marginTop: "20px" }}>
+                        <h2>Latest Blogs</h2>
+                        <div style={{ marginTop: "20px" }}>
                             <h3>How to learn JS ? </h3>
-                            <p>Js is used for the backend of a website</p>
+                            <p className={styles.p}>
+                                Js is a programming language used for the
+                                frontend of a website, it is used to make
+                                websites interactive and dynamic.
+                            </p>
+                            <button className={styles.btn}>Read More</button>
                         </div>
-                        <div className="blogItem" style={{ marginTop: "20px" }}>
-                            <h3>How to learn JS ? </h3>
-                            <p>Js is used for the backend of a website</p>
+                        <div style={{ marginTop: "20px" }}>
+                            <h3>How to learn NextJS ? </h3>
+                            <p className={styles.p}>
+                                NextJS is a framework built on top of ReactJS
+                                that allows for server-side rendering and static
+                                site generation, making it easier to build fast
+                                and scalable web applications.
+                            </p>
+                            <button className={styles.btn}>Read More</button>
                         </div>
-                        <div className="blogItem" style={{ marginTop: "20px" }}>
-                            <h3>How to learn JS ? </h3>
-                            <p>Js is used for the backend of a website</p>
+                        <div style={{ marginTop: "20px" }}>
+                            <h3>How to learn MongoDB ? </h3>
+                            <p className={styles.p}>
+                                MongoDB is a NoSQL database that stores data in
+                                a flexible, JSON-like format, making it easy to
+                                work with large volumes of unstructured data.
+                            </p>
+                            <button className={styles.btn}>Read More</button>
                         </div>
                     </div>
                 </main>
