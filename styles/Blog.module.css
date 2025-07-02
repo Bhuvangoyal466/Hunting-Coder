@@ -47,3 +47,11 @@
     border-radius: 3px;
     margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 90vw;
+        padding: 0px;
+        margin: 40px;
+    }
+}

@@ -24,7 +24,7 @@ export async function getServerSideProps(context) {
     // const router = useRouter();
     // const { slug } = router.query;
     const { slug } = context.query; // Get the slug from the context
-    console.log(slug);
+    // console.log(slug);
     let data = await fetch(`http://localhost:3000/api/getblog?slug=${slug}`);
     let myBlog = await data.json();
     return {

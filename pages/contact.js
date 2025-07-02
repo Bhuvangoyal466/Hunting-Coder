@@ -9,7 +9,7 @@ const Contact = () => {
     const [desc, setDesc] = useState("");
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(name, email, phone, desc);
+        // console.log(name, email, phone, desc);
         const data = { phone, email, name, desc };
         fetch("http://localhost:3000/api/postcontact", {
             method: "POST",
@@ -20,7 +20,7 @@ const Contact = () => {
         })
             .then((response) => response.json())
             .then((data) => {
-                console.log(data);
+                // console.log(data);
                 alert("Thank you for contacting us!");
                 setName("");
                 setEmail("");
